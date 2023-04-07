@@ -19,7 +19,7 @@ public class Taller {
      */
     public static void lineasHechas(double posicionx0,double posicionx1,double posiciony0,double posiciony1,double posiLineax0[],double posiLineax1[],double posiLineay0[],double posiLineay1[]){
 
-        double aumentar = 0.05; //se le aumenta a la posicion para que tengan diferencia de altura.
+        double aumentar = 0.05;
 
         //declaro la primera posicion independiente para que no se le aumente la velocidad, esta es la primera linea y las demas la seguiran.
         posiLineax0[0] = posicionx0;

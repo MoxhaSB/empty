@@ -1,0 +1,7 @@
+@startuml
+Entity hola {
+}
+Entity nose {
+}
+hola"1..*" --> "1"nose
+@enduml
